@@ -1,0 +1,22 @@
+{
+  "name": "node-cloudmess",
+  "version": "1.0.0",
+  "description": "Node Cloud Messaging Microservice",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha tests/"
+  },
+  "author": "Artem Antonov <aantonov.develop@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.5.2",
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "node-gcm": "^0.14.0",
+    "redis": "^2.5.3",
+    "stdio": "^0.2.7"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
+}
