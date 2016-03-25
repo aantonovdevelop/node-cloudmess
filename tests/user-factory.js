@@ -8,7 +8,7 @@ var UserFactory;
 describe('UserFactory', function () {
     describe('#init_instances', function () {
         it('Should init UserFactory instance', function () {
-            UserFactory = require('../src/factories/model-factory');
+            UserFactory = require('../src/factories/user-factory');
         });
     });
 

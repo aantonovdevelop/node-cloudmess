@@ -7,7 +7,7 @@ var gcm = require('node-gcm');
 var ExpressMessageServer = require('./src/express-message-server');
 var MessageSender = require('./src/message-sender');
 var MessageController = require('./src/controllers/message-controller');
-var UserFactory = require('./src/factories/model-factory');
+var UserFactory = require('./src/factories/user-factory');
 
 var options = stdio.getopt({
     app_port: {
